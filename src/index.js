@@ -40,6 +40,7 @@ app.use(require('./routes/index'))
 app.use(require('./routes/users'))
 app.use(require('./routes/notes'))
 //Static file 
+app.use(express.static(path.join(__dirname,'public')))
 
 
 // Server is lisen  
