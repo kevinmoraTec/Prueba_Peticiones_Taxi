@@ -1,4 +1,4 @@
-const mongoose =require('mongoose');
+const mongoose =require('mongoose'); // mongoose para declarar lo metodos de esta libreria 
 mongoose.connect('mongodb://localhost/notes-db-app',{// Linea para declarar la conxion y su configuracion
     useCreateIndex: true,
     useNewUrlParser: true,
